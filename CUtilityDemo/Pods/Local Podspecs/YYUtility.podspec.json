@@ -19,7 +19,7 @@
     "tag": "0.0.2"
   },
   "source_files": "CExtension/**/*.{h,m}",
-  "public_header_files": "CExtension/*.{h}",
+  "public_header_files": "CExtension/**/*.{h}",
   "ios": {
     "exclude_files": [
       "CExtension/Base/Foundation/NSObject+YYAddForARC.{h,m}",
