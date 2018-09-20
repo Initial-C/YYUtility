@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => "https://github.com/Initial-C/YYUtility.git", :tag => "#{s.version}" }
   s.source_files = "CExtension/**/*.{h,m}"
-  s.public_header_files = 'CExtension/**/*.{h}'
+  s.public_header_files = 'CExtension/*.{h}'
 
   non_arc_files = 'CExtension/Base/Foundation/NSObject+YYAddForARC.{h,m}', 'CExtension/Base/Foundation/NSThread+YYAdd.{h,m}'
   # s.exclude_files = "Classes/**/*.{h,m}"

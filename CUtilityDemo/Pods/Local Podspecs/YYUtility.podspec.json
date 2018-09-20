@@ -1,6 +1,6 @@
 {
   "name": "YYUtility",
-  "version": "0.0.1",
+  "version": "0.0.1.1",
   "summary": "Based on YYKit's utility and extension, it is a multfunctional tool",
   "homepage": "https://github.com/Initial-C",
   "license": {
@@ -16,10 +16,10 @@
   "requires_arc": true,
   "source": {
     "git": "https://github.com/Initial-C/YYUtility.git",
-    "tag": "0.0.1"
+    "tag": "0.0.1.1"
   },
   "source_files": "CExtension/**/*.{h,m}",
-  "public_header_files": "CExtension/**/*.{h}",
+  "public_header_files": "CExtension/*.{h}",
   "ios": {
     "exclude_files": [
       "CExtension/Base/Foundation/NSObject+YYAddForARC.{h,m}",
