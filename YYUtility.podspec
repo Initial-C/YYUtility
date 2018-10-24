@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YYUtility"
-  s.version      = "0.0.3"
+  s.version      = "0.0.3.1"
   s.summary      = "Based on YYKit's utility and extension, it is a multfunctional tool"
   s.homepage     = "https://github.com/Initial-C"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
