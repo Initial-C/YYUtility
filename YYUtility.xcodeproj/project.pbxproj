@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52CB06F62180599000BB35FF /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06912180599000BB35FF /* YYClassInfo.h */; };
-		52CB06F72180599000BB35FF /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06922180599000BB35FF /* YYModel.h */; };
+		52CB06F72180599000BB35FF /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06922180599000BB35FF /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52CB06F82180599000BB35FF /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06932180599000BB35FF /* NSObject+YYModel.m */; };
 		52CB06F92180599000BB35FF /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06942180599000BB35FF /* YYClassInfo.m */; };
 		52CB06FA2180599000BB35FF /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06952180599000BB35FF /* NSObject+YYModel.h */; };
@@ -17,20 +17,18 @@
 		52CB06FD2180599000BB35FF /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06992180599000BB35FF /* YYCache.m */; };
 		52CB06FE2180599000BB35FF /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB069A2180599000BB35FF /* YYMemoryCache.h */; };
 		52CB06FF2180599000BB35FF /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB069B2180599000BB35FF /* YYDiskCache.h */; };
-		52CB07002180599000BB35FF /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB069C2180599000BB35FF /* YYCache.h */; };
+		52CB07002180599000BB35FF /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB069C2180599000BB35FF /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52CB07012180599000BB35FF /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB069D2180599000BB35FF /* YYKVStorage.m */; };
 		52CB07022180599000BB35FF /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB069E2180599000BB35FF /* YYMemoryCache.m */; };
-		52CB07032180599000BB35FF /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06A02180599000BB35FF /* YYImage.h */; };
+		52CB07032180599000BB35FF /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06A02180599000BB35FF /* YYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52CB07042180599000BB35FF /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06A12180599000BB35FF /* YYImageCoder.h */; };
-		52CB07052180599000BB35FF /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06A22180599000BB35FF /* YYFrameImage.h */; };
 		52CB07062180599000BB35FF /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06A32180599000BB35FF /* YYSpriteSheetImage.m */; };
-		52CB07072180599000BB35FF /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06A42180599000BB35FF /* YYAnimatedImageView.h */; };
 		52CB07082180599000BB35FF /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06A52180599000BB35FF /* YYImage.m */; };
 		52CB07092180599000BB35FF /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06A62180599000BB35FF /* YYImageCoder.m */; };
 		52CB070A2180599000BB35FF /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06A72180599000BB35FF /* YYFrameImage.m */; };
 		52CB070B2180599000BB35FF /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06A82180599000BB35FF /* YYAnimatedImageView.m */; };
 		52CB070C2180599000BB35FF /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06A92180599000BB35FF /* YYSpriteSheetImage.h */; };
-		52CB070E2180599000BB35FF /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06AD2180599000BB35FF /* YYText.h */; };
+		52CB070E2180599000BB35FF /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06AD2180599000BB35FF /* YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52CB070F2180599000BB35FF /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06AE2180599000BB35FF /* YYTextView.m */; };
 		52CB07102180599000BB35FF /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06B02180599000BB35FF /* YYTextSelectionView.h */; };
 		52CB07112180599000BB35FF /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06B12180599000BB35FF /* YYTextLine.h */; };
@@ -96,7 +94,7 @@
 		52CB074D2180599000BB35FF /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06F12180599000BB35FF /* MKAnnotationView+YYWebImage.m */; };
 		52CB074E2180599000BB35FF /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06F22180599000BB35FF /* UIImage+YYWebImage.m */; };
 		52CB074F2180599000BB35FF /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06F32180599000BB35FF /* CALayer+YYWebImage.m */; };
-		52CB07502180599000BB35FF /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06F42180599000BB35FF /* YYWebImage.h */; };
+		52CB07502180599000BB35FF /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB06F42180599000BB35FF /* YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52CB07512180599000BB35FF /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB06F52180599000BB35FF /* YYWebImageOperation.m */; };
 		52CB085E218059D200BB35FF /* YYKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB0804218059D200BB35FF /* YYKitMacro.h */; };
 		52CB085F218059D200BB35FF /* UITextField+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB0806218059D200BB35FF /* UITextField+YYAdd.m */; };
@@ -183,7 +181,7 @@
 		52CB08B0218059D200BB35FF /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB085A218059D200BB35FF /* YYThreadSafeArray.m */; };
 		52CB08B1218059D200BB35FF /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB085B218059D200BB35FF /* YYReachability.m */; };
 		52CB08B2218059D200BB35FF /* YYSentinel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB085C218059D200BB35FF /* YYSentinel.h */; };
-		52CB08B3218059D200BB35FF /* YYUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB085D218059D200BB35FF /* YYUtility.h */; };
+		52CB08B3218059D200BB35FF /* YYUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CB085D218059D200BB35FF /* YYUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -711,14 +709,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CB07072180599000BB35FF /* YYAnimatedImageView.h in Headers */,
+				52CB08B3218059D200BB35FF /* YYUtility.h in Headers */,
+				52CB07002180599000BB35FF /* YYCache.h in Headers */,
+				52CB07032180599000BB35FF /* YYImage.h in Headers */,
+				52CB06F72180599000BB35FF /* YYModel.h in Headers */,
+				52CB070E2180599000BB35FF /* YYText.h in Headers */,
+				52CB07502180599000BB35FF /* YYWebImage.h in Headers */,
 				52CB087D218059D200BB35FF /* NSTimer+YYAdd.h in Headers */,
 				52CB088A218059D200BB35FF /* NSNumber+YYAdd.h in Headers */,
 				52CB07472180599000BB35FF /* CALayer+YYWebImage.h in Headers */,
 				52CB06FF2180599000BB35FF /* YYDiskCache.h in Headers */,
 				52CB07242180599000BB35FF /* YYTextAttribute.h in Headers */,
 				52CB08B2218059D200BB35FF /* YYSentinel.h in Headers */,
-				52CB06F72180599000BB35FF /* YYModel.h in Headers */,
 				52CB07482180599000BB35FF /* UIImage+YYWebImage.h in Headers */,
 				52CB07332180599000BB35FF /* YYTextTransaction.h in Headers */,
 				52CB0890218059D200BB35FF /* NSBundle+YYAdd.h in Headers */,
@@ -741,8 +743,6 @@
 				52CB06F62180599000BB35FF /* YYClassInfo.h in Headers */,
 				52CB07352180599000BB35FF /* YYTextWeakProxy.h in Headers */,
 				52CB074A2180599000BB35FF /* _YYWebImageSetter.h in Headers */,
-				52CB07002180599000BB35FF /* YYCache.h in Headers */,
-				52CB08B3218059D200BB35FF /* YYUtility.h in Headers */,
 				52CB07282180599000BB35FF /* YYTextArchiver.h in Headers */,
 				52CB07412180599000BB35FF /* YYWebImageOperation.h in Headers */,
 				52CB07102180599000BB35FF /* YYTextSelectionView.h in Headers */,
@@ -752,14 +752,12 @@
 				52CB07452180599000BB35FF /* UIButton+YYWebImage.h in Headers */,
 				52CB0872218059D200BB35FF /* UITableView+YYAdd.h in Headers */,
 				52CB086A218059D200BB35FF /* UIFont+YYAdd.h in Headers */,
-				52CB07032180599000BB35FF /* YYImage.h in Headers */,
 				52CB086D218059D200BB35FF /* UITextField+YYAdd.h in Headers */,
 				52CB08A5218059D200BB35FF /* YYThreadSafeArray.h in Headers */,
 				52CB071E2180599000BB35FF /* YYTextContainerView.h in Headers */,
 				52CB06FA2180599000BB35FF /* NSObject+YYModel.h in Headers */,
 				52CB0892218059D200BB35FF /* NSKeyedUnarchiver+YYAdd.h in Headers */,
 				52CB07172180599000BB35FF /* YYTextDebugOption.h in Headers */,
-				52CB07052180599000BB35FF /* YYFrameImage.h in Headers */,
 				52CB071D2180599000BB35FF /* YYTextEffectWindow.h in Headers */,
 				52CB073E2180599000BB35FF /* UIPasteboard+YYText.h in Headers */,
 				52CB089F218059D200BB35FF /* YYTransaction.h in Headers */,
@@ -771,7 +769,6 @@
 				52CB0874218059D200BB35FF /* UIDevice+YYAdd.h in Headers */,
 				52CB08A7218059D200BB35FF /* YYAsyncLayer.h in Headers */,
 				52CB088B218059D200BB35FF /* NSArray+YYAdd.h in Headers */,
-				52CB07502180599000BB35FF /* YYWebImage.h in Headers */,
 				52CB07292180599000BB35FF /* YYTextRunDelegate.h in Headers */,
 				52CB0887218059D200BB35FF /* NSDictionary+YYAdd.h in Headers */,
 				52CB087E218059D200BB35FF /* NSDate+YYAdd.h in Headers */,
@@ -785,7 +782,6 @@
 				52CB086F218059D200BB35FF /* UIBezierPath+YYAdd.h in Headers */,
 				52CB07492180599000BB35FF /* MKAnnotationView+YYWebImage.h in Headers */,
 				52CB08A1218059D200BB35FF /* YYFileHash.h in Headers */,
-				52CB070E2180599000BB35FF /* YYText.h in Headers */,
 				52CB06FC2180599000BB35FF /* YYKVStorage.h in Headers */,
 				52CB0878218059D200BB35FF /* UIBarButtonItem+YYAdd.h in Headers */,
 				52CB072B2180599000BB35FF /* YYTextParser.h in Headers */,
